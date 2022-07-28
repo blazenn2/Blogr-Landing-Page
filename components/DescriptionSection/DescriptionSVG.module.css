@@ -1,0 +1,15 @@
+.background {
+    background: url("../../images/illustration-laptop-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: -250px 100px;
+    background-size: 900px;
+}
+
+@media only screen and (max-width: 375px) {
+    .background {
+        background: url("../../images/illustration-laptop-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: -70px 100px;
+        /* background-size: 900px; */
+    }
+}

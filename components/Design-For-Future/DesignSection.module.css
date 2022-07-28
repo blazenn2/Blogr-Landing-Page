@@ -1,0 +1,15 @@
+.background {
+    background-image: url('../../images/illustration-editor-desktop.svg');
+    background-position: 820px 60px;
+    background-size: 820px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 375px) {
+    .background {
+        background-image: url('../../images/illustration-editor-mobile.svg');
+        background-position: 0px 215px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+}
