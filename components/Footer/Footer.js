@@ -6,7 +6,7 @@ import FooterConnect from './FooterConnect'
 
 const Footer = () => {
     return (
-        <div className={`min-h-[50vh] grid grid-cols-10 ${classes.background} ms:h-[110vh] ms:grid-cols-1 ms:gap-y-[30px]`}>
+        <div className={`min-h-[50vh] grid grid-cols-10 ${classes.background} ms:h-[800px] ms:grid-cols-1 ms:gap-y-[30px]`}>
             <FooterImage />
             <FooterProducts />
             <FooterCompany />
